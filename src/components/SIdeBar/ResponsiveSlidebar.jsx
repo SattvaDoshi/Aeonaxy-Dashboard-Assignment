@@ -14,7 +14,7 @@ const ResponsiveSlidebar = ({ isOpen, openLayout, toggleDrawer, isOpen2 }) => {
                 direction="left"
                 className="bla bla bla overflow-y-auto"
             >
-                <div className="mx-2 ">
+                <div className="mx-2 mt-4 ">
                     <>
                         <div
                             className={`${openLayout ? "flex" : "hidden"
@@ -132,8 +132,7 @@ const ResponsiveSlidebar = ({ isOpen, openLayout, toggleDrawer, isOpen2 }) => {
 
                             <div className="mx-auto flex items-center justify-start w-full hover:bg-[#E1EEFF]  px-2 py-2 text-lg my-1">
                                 <svg
-                                    className={`rotate-0
-           duration-300`}
+                                    className={`rotate-0 duration-300`}
                                     width={25}
                                     viewBox="0 0 24 24"
                                     fill="none"
@@ -160,8 +159,7 @@ const ResponsiveSlidebar = ({ isOpen, openLayout, toggleDrawer, isOpen2 }) => {
                             </div>
                             <div className="mx-auto flex items-center justify-start w-full hover:bg-[#E1EEFF] rounded-lg px-2 py-2 text-lg mb-32">
                                 <svg
-                                    className={`rotate-0
-           duration-300`}
+                                    className={`rotate-0 duration-300`}
                                     width={25}
                                     viewBox="0 0 24 24"
                                     fill="none"
@@ -213,7 +211,8 @@ const ResponsiveSlidebar = ({ isOpen, openLayout, toggleDrawer, isOpen2 }) => {
                         </NavLink>
                     </>
                 </div>
-            </Drawer></div>
+            </Drawer>
+        </div>
     )
 }
 
